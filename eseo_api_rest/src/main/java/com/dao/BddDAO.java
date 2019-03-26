@@ -16,7 +16,7 @@ public class BddDAO {
 
 	public void returnBDD() {
 		try {
-			DriverManager.registerDriver(new com.mysql.cj.jdbc.Driver());
+			DriverManager.registerDriver(new com.mysql.jdbc.Driver());
 			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/maven?useLegacyDatetimeCode=false&serverTimezone=Europe/Paris&useSSL=false","root","");
 			
 			Statement stmt = conn.createStatement();
