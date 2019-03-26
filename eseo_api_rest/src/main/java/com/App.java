@@ -14,7 +14,7 @@ public class App
     {
         try {
         	SpringApplication.run(App.class, args);
-        	System.out.println("Appl*****ication démarrée");
+        	System.out.println("Application démarrée");
         	
         } catch (Exception e) {
         	System.out.println("Erreur application !");
